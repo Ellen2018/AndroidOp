@@ -5,7 +5,6 @@ UI适配是项目优化点之一，学习向导:
 &emsp;&emsp;问题一:dp & sp 等如何转化为px的？   
 &emsp;&emsp;问题二:为什么Android系统原生的方案不完美？  
 - 有哪些市面上比较牛的方案？
-- 自己设计方案
 
 这里笔者贴上一个写的非常不错的文章[Android 目前最稳定和高效的UI适配方案](https://www.jianshu.com/p/a4b8e4c5d9b0?tdsourcetag=s_pcqq_aiomsg)  
 
@@ -45,4 +44,11 @@ Android的dp单位只是谷歌的UI适配算法，但是这种算法对于现在
 - 对于手机2而言,可以计算出,它的最终宽高为920×920
 
 很明显在手机2上这个控件的宽并没有占满横屏，所以手机2和手机1之间出现了很明显的差异。
+
+## 那些很好的适配方案  
+
+- [今日头条屏幕适配方案终极版正式发布!](https://www.jianshu.com/p/4aa23d69d481)  
+  [GitHub地址:AndroidAtuoSize](https://github.com/JessYanCoding/AndroidAutoSize) 
+
+
  

@@ -22,6 +22,8 @@ Android的dp单位只是谷歌的UI适配算法，但是这种算法对于现在
 
 那么dpi如何计算的呢？dpi的计算与手机的分辨率以及屏幕大小有关，比如现在有个手机，它的分辨率是1080×1920,单位是px,并且屏幕大小为5寸，dpi指的是每英寸的像素点个数，我们都知道手机的屏幕大小5寸实际上就是指手机对角线的长度为5寸，我们只需要求出对角线的像素点个数，然后再除以尺寸个数，即可得到dpi的值。如下如所示:  
 
-![](https://github.com/Ellen2018/AndroidOp/blob/master/image/dpi%E8%AE%A1%E7%AE%97.png)
+![](https://oscimg.oschina.net/oscnet/up-5cf90f54ab5b1fe2c79b3bfb4b64a3c3fcf.png)
+
+### 问题二:为什么Android系统原生的方案不完美？
 
  

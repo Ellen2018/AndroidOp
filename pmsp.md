@@ -20,6 +20,7 @@ Android的dp单位只是谷歌的UI适配算法，但是这种算法对于现在
 ### 问题一:dp & sp 等如何转化为px的？  
 
 [了解Android中屏幕单位(请仔细阅读本篇文章)](https://www.cnblogs.com/Sir-Lin/p/7841233.html)  
+[Android 屏幕适配：最全面的解决方案](https://www.jianshu.com/p/ec5a1a30694b)
 
 从上面文章中我们可以得出:
 

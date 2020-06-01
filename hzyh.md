@@ -17,7 +17,10 @@
 
 [过度绘制](https://blog.csdn.net/zxc123e/article/details/71750786)
 
-通过此链接，您需要了解如何判断您的布局过度绘制了。
+通过此链接，您需要了解
+
+- 如何判断您的布局过度绘制了
+- 为什么布局层级不能太深？
 
 ## Android 绘制 & 刷新
 
@@ -43,5 +46,23 @@
 
 ## Android 绘制优化方案
 
-### 优化点一:布局优化
+### 优化点一:减少布局层次
+
+- [使用标签< include >,< merge >,< viewstub >进行优化](https://www.trinea.cn/android/layout-performance/)  
+- 尽量使用 约束布局 & 相对布局 & 帧布局
+
+### 优化点二:冷启动优化  
+
+- [冷启动优化](https://blog.csdn.net/qq_435559203/article/details/83719881)
+
+### UI卡顿优化
+
+- 如何检测出UI卡顿?     
+  [Android UI性能优化 检测应用中的UI卡顿](https://blog.csdn.net/lmj623565791/article/details/58626355)  
+  [blockcanary神器](blockcanary)
+
+- [UI卡顿优化总结](https://zhuanlan.zhihu.com/p/27065828)
+- [WebView单进程模式](https://www.jianshu.com/p/8ed995016fde)
+
+注意：关于优化方案并没有统一的说法，我们要根据自己的技术能力以及借助网上一些博客对自己项目进行理性分析，从而找出合理的优化方案，这需要积累。
 

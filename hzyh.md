@@ -55,14 +55,14 @@
 
 - [冷启动优化](https://blog.csdn.net/qq_435559203/article/details/83719881)
 
-### UI卡顿优化
+注意：关于优化方案并没有统一的说法，我们要根据自己的技术能力以及借助网上一些博客对自己项目进行理性分析，从而找出合理的优化方案，这需要积累。
+
+### 优化点三:UI卡顿优化
 
 - 如何检测出UI卡顿?     
   [Android UI性能优化 检测应用中的UI卡顿](https://blog.csdn.net/lmj623565791/article/details/58626355)  
-  [blockcanary神器](blockcanary)
+  [blockcanary神器](https://github.com/markzhai/AndroidPerformanceMonitor)
 
 - [UI卡顿优化总结](https://zhuanlan.zhihu.com/p/27065828)
 - [WebView单进程模式](https://www.jianshu.com/p/8ed995016fde)
-
-注意：关于优化方案并没有统一的说法，我们要根据自己的技术能力以及借助网上一些博客对自己项目进行理性分析，从而找出合理的优化方案，这需要积累。
 

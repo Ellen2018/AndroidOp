@@ -2,6 +2,7 @@
 > 
 > - ANR & ANR产生的原理
 > - ANR的时间问题
+> - 为什么用户会有卡顿的感觉
 > - 如何检测卡顿的产生
 > - UI卡顿优化方案
 
@@ -11,24 +12,28 @@
 
 ## ANR 时间问题
 
-> Activity  
+> Activity
 > 无论前后台均为5s
 
-> BroadcastReceiver  
-> 前台:10s  
+> BroadcastReceiver
+> 前台:10s
 > 后台:60s
 
-> ContentProvider  
-> 无论前后台均为10s  
+> ContentProvider
+> 无论前后台均为10s
 
-> Service  
-> 前台：10s  
+> Service
+> 前台：10s
 > 后台: 200s
 
-> InputDispatching
+> InputDispatching Timeout
 > 无论前后台均为5s
 
 [参考链接](https://blog.csdn.net/houxian1103/article/details/90232704)
+
+## 卡顿产生的原理
+
+[阅读:Android UI渲染与卡顿原理](Android UI渲染与卡顿原理)
 
 ## 如何检测卡顿的产生？  
 

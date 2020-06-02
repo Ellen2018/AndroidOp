@@ -25,7 +25,7 @@
 > 前台：10s  
 > 后台: 200s
 
-> InputDispatching Timeout  
+> InputDispatching
 > 无论前后台均为5s
 
 [参考链接](https://blog.csdn.net/houxian1103/article/details/90232704)

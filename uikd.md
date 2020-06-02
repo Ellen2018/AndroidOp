@@ -33,7 +33,7 @@
 
 ## 卡顿产生的原理
 
-[阅读:Android UI渲染与卡顿原理](Android UI渲染与卡顿原理)
+[阅读:Android UI渲染与卡顿原理](https://blog.csdn.net/wei_lei/article/details/70460132)
 
 ## 如何检测卡顿的产生？  
 

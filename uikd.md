@@ -37,7 +37,7 @@
 
 ## UI卡顿优化方案
 
-- Activity 启动时，尽量不要太耗时，也就是在onCreate,onStart,onResume里做耗时操作
+- Activity 启动时，尽量不要太耗时，也就是在onCreate,onStart,onResume里不要做太过于耗时的操作
 - 加载大文件时开启线程进行加载，注意最好使用线程池
 - ViewPager + Fragment搭配使用时Fragment进行懒加载
 - 减少布局层级(合理使用布局标签< merge >,< viewstub >)

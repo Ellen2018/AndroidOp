@@ -43,7 +43,8 @@
 
 ## 内存优化方案
 
-- 内部类持有外部类引用导致的内存泄漏(例如Handler)--->采用静态弱引用方式进行改进
+- 内部类持有外部类引用导致的内存泄漏(例如Handler)--->采用静态弱引用方式进行改进  
+[代码示例](https://github.com/Ellen2018/AndroidOp/blob/master/app/src/main/java/com/ellen/androidop/NcxlActivity.java)
 
 - 大图加载导致的内存溢出--->因为屏幕有限，因此封装一套边回收边加载图片机制的算法，回收的是用户滑出去的图片数据，加载的是用户滑进屏幕的图片数据，在Andoid中BitmapRegionDecoder能完成这样的算法。
 

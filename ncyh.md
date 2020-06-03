@@ -10,7 +10,7 @@
 
 ## 认识Android虚拟机Dalvik & ART
 
-[Android虚拟机Dalvik](https://www.cnblogs.com/larrylawrence/p/3815691.html)
+[Android虚拟机Dalvik](https://www.cnblogs.com/larrylawrence/p/3815691.html)  
 [Andoid虚拟机ART](https://www.jianshu.com/p/45c2686275c6)
 
 大致了解即可，无需全部弄懂
@@ -30,8 +30,8 @@
 
 ## 认识内存泄漏 & 内存抖动 & 内存溢出 & 常见的场景
 
-[内存泄漏](https://www.jianshu.com/p/ac00e370f83d)
-[内存抖动](https://www.pianshen.com/article/7279392753/)
+[内存泄漏](https://www.jianshu.com/p/ac00e370f83d)  
+[内存抖动](https://www.pianshen.com/article/7279392753/)  
 [内存溢出](https://zhuanlan.zhihu.com/p/54656524)
 
 补充:

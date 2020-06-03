@@ -3,7 +3,7 @@
 - [UI适配优化](https://github.com/Ellen2018/AndroidOp/blob/master/pmsp.md)
 - [绘制优化](https://github.com/Ellen2018/AndroidOp/blob/master/hzyh.md)
 - [UI卡顿优化](https://github.com/Ellen2018/AndroidOp/blob/master/uikd.md)
-- 内存优化
+- [内存优化](https://github.com/Ellen2018/AndroidOp/blob/master/ncyh.md)
 - 包体积优化
 - 存储优化
 - 耗电优化

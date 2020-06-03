@@ -4,8 +4,9 @@
 - [绘制优化](https://github.com/Ellen2018/AndroidOp/blob/master/hzyh.md)
 - [UI卡顿优化](https://github.com/Ellen2018/AndroidOp/blob/master/uikd.md)
 - [内存优化](https://github.com/Ellen2018/AndroidOp/blob/master/ncyh.md)
-- 包体积优化
+- [包体积优化](https://github.com/Ellen2018/AndroidOp/blob/master/apk_ss.md)
 - 存储优化
+- 网络优化
 - 耗电优化
 - App稳定性优化
 - 其他优化(线程使用优化,代码质量优化等)

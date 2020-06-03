@@ -40,7 +40,7 @@ public class NcxlActivity extends AppCompatActivity {
         @Override
         public void handleMessage(@NonNull Message msg) {
             super.handleMessage(msg);
-            
+
             ncxlActivityWeakReference.get().a = 4;
         }
     }

@@ -3,6 +3,7 @@
 > - 认识Android虚拟机Dalvik & ART
 > - 对象 & 类 的生命周期
 > - GC回收算法
+> - 引用计数算法 & 可达性算法
 > - Java中的四种引用
 > - 认识内存泄漏 & 内存抖动 & 内存溢出 & 常见的场景
 > - 如何检测出内存泄漏
@@ -22,7 +23,11 @@
 ## GC回收算法
 
 [Java中的GC回收算法](https://www.cnblogs.com/makor/p/base-algorithm-for-gc.html)
-[Android中的GC回收算法](https://blog.csdn.net/zeyu_rensheng/article/details/81098536)
+[Android中的GC回收算法](https://blog.csdn.net/zeyu_rensheng/article/details/81098536)  
+
+## 引用计数算法 & 可达性算法
+
+[JVM 基础：回收哪些内存/对象 引用计数算法 可达性分析算法 finalize()方法 HotSpot实现分析](https://www.cnblogs.com/alsf/p/9484790.html)
 
 ## Java中的四种引用
 

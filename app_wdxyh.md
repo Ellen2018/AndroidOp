@@ -37,3 +37,9 @@
 
 ## 代码质量
 
+代码质量的提高不是一日两日就可以提高的，而是保持好撸码习惯，渐渐的你的代码质量就提高了。  
+
+[Java 设计6大原则](https://blog.csdn.net/petterp/article/details/88053378)  
+[推荐研读【Effective Java】](https://www.jianshu.com/p/54e122c8e765)  
+
+好的代码质量即是对自己负责，也是对公司负责，产品迭代时不需要填自己坑，也不给他人留坑!

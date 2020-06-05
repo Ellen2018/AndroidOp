@@ -22,7 +22,7 @@
 
 ## GC回收算法
 
-[Java中的GC回收算法](https://www.cnblogs.com/makor/p/base-algorithm-for-gc.html)
+[Java中的GC回收算法](https://www.cnblogs.com/makor/p/base-algorithm-for-gc.html)  
 [Android中的GC回收算法](https://blog.csdn.net/zeyu_rensheng/article/details/81098536)  
 
 ## 引用计数算法 & 可达性算法
@@ -57,7 +57,10 @@
 
 - 使用Bitmap时没有及时调用recycler方法导致的内存泄漏--->当你的Bitmap使用完成了之后，不调用recycler方法，就不会对native(C、C++)区数据进行回收,尽管有些版本Bitmap数据不会放在Native,但是你还是必须得调用这个方法，理由请你深思一下，笔者就不啰嗦了。
 
-- MVP架构导致的内存泄漏--->其原因是P层持有V层的强引用，导致位于V层的Activity无法被回收，解决方案让P层持有弱引用方式的V层
+- MVP架构导致的内存泄漏--->其原因是P层持有V层的强引用，导致位于V层的Activity无法被回收，解决方案让P层持有弱引用方式的V层  
+
+- WebView导致的内存泄漏--->在代码中动态的添加和移除  
+[解决Android WebView内存泄漏问题](https://www.jianshu.com/p/3e8f7dbb0dc7)
 
 还有很多很多场景，关键优化在于我们如何检测出它的存在，然后分析为什么会导致泄漏，接着就想出方案去解决它。
 

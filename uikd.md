@@ -12,21 +12,21 @@
 
 ## ANR 时间问题
 
-> Activity
-> 无论前后台均为5s
+> Activity  
+> 无论前后台均为5s  
 
-> BroadcastReceiver
-> 前台:10s
-> 后台:60s
+> BroadcastReceiver    
+> 前台:10s  
+> 后台:60s  
 
-> ContentProvider
-> 无论前后台均为10s
+> ContentProvider    
+> 无论前后台均为10s    
 
-> Service
-> 前台：10s
-> 后台: 200s
+> Service    
+> 前台：10s    
+> 后台: 200s  
 
-> InputDispatching Timeout
+> InputDispatching Timeout  
 > 无论前后台均为5s
 
 [参考链接](https://blog.csdn.net/houxian1103/article/details/90232704)
@@ -49,6 +49,7 @@
 - ListView 或者 RecyclerView 优化，Item布局不要层级过多，显示Item数据时不要太耗时
 - 有时内存抖动也会引起卡顿问题
 - 自定义View时有些方法不要new对象，因为它有可能被频繁调用，这会引起内存抖动
+- WebView首次加载网页过慢的问题[美团方案](https://tech.meituan.com/2017/06/09/webviewperf.html)
 - ......
 
 &emsp;&emsp;优化点有很多很多，但其核心就是不要在主线程做耗时任务，这里笔者难以将优化点列全，我也做不到全部列全，读者一旦发现卡顿，只能依据自己的思维审视自己的代码，哪些位置的代码在主线程太过于耗时导致卡顿，然后找到优化方案进行解决。

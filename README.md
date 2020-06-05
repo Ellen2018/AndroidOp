@@ -9,4 +9,4 @@
 - [网络优化](https://github.com/Ellen2018/AndroidOp/blob/master/wlyh.md)
 - [耗电优化](https://blog.csdn.net/qq980106800/article/details/87811924)
 - [App稳定性优化](https://github.com/Ellen2018/AndroidOp/blob/master/app_wdxyh.md)
-- 其他优化(线程使用优化,代码质量优化等)
+- [线程优化](https://github.com/Ellen2018/AndroidOp/blob/master/xcyh.md)
